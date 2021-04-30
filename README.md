@@ -21,5 +21,5 @@ Los cheatsheets (machete, cola, trencito, copiatín, plage, batería, torpedo, c
 
 Podes sumarte a nuestras canales del Club de R para RRHH:
 * [Slack](https://join.slack.com/t/r4hr/shared_invite/zt-ocriyx5e-nqXuwWeDyOKm2ICUJjhu6g)
-* [Discord](https://discord.gg/qj4H25sd)
+* [Discord](https://discord.gg/KvreTTJz)
 * [Redes Sociales](https://linktr.ee/r4hrclub)

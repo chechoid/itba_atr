@@ -943,7 +943,7 @@ mosaic1 %>% build_mosaic()
 
 ]
 ---
-## Hagamos algo más divertido
+## Hagamos algo más delirante
 
 .pull-left[
 ```{r ref.label="bernie", echo=FALSE}
@@ -959,7 +959,7 @@ ggplot(d1) +
               bernie = "sitting") + #<<
   labs(title = "Presentando: ggbernie por R-CoderDotCom",
        caption = "GitHub: https://github.com/R-CoderDotCom/ggbernie")+
-  scale_y_continuous(limits = c(0, 200000))
+  scale_y_continuous(limits = c(50000, 160000))
 ```
 
 ---
