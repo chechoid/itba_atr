@@ -24,6 +24,30 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(fig.retina = 3, warning = FALSE, message = FALSE)
 ```
 
+```{r metathis, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "https://github.com/chechoid/itba_atr") %>% 
+  meta_social(
+    title = "ATR: A Todo R",
+    description = paste(
+      "Una introducción al lenguaje R y las oportunidades que ofrece para RRHH para el análisis de datos y la automatización de los procesos.",
+      "Desarrollada por Sergio Garcia Mora."
+    ),
+    url = "http://dpa-atr.netlify.app",
+    image = "https://github.com/cchechoid/itba_atr/blob/main/Archivos/atr.png",
+    image_alt = paste(
+      "ATR: A Todo R", 
+      "Diplomatura de People Analytics ITBA", 
+      "Autor: Sergio Garcia Mora"
+    ),
+    og_type = "website",
+    og_author = "Sergio Garcia Mora",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@sergiogarciamor",
+    twitter_site = "@data4hr"
+  )
+```
 ---
 # Sergio Garcia Mora
 
@@ -40,32 +64,8 @@ knitr::opts_chunk$set(fig.retina = 3, warning = FALSE, message = FALSE)
 * `r emo::ji("airplane")` Fundador de [Data 4HR](https://data-4hr.com/)
 * `r emo::ji("wine")` Fundador del [Club de R para RRHH](https://linktr.ee/r4hrclub)
 * `r emo::ji("king")` Meme Manager en varias comunidades
+]
 
-
-```{r metathis, echo=FALSE}
-library(metathis)
-meta() %>%
-  meta_name("github-repo" = "https://github.com/chechoid/itba_atr") %>% 
-  meta_social(
-    title = "ATR: A Todo R",
-    description = paste(
-      "Una introducción al lenguaje R y las oportunidades que ofrece para RRHH para el análisis de datos y la automatización de los procesos.",
-      "Desarrollada por Sergio Garcia Mora."
-    ),
-    url = "http://bit.ly/paw21-es-r4hr",
-    image = "https://github.com/chechoid/paw21-coding-in-r-live-to-tell/blob/main/Archivos/portada.png",
-    image_alt = paste(
-      "ATR: A Todo R", 
-      "Diplomatura de People Analytics ITBA", 
-      "Autor: Sergio Garcia Mora"
-    ),
-    og_type = "website",
-    og_author = "Sergio Garcia Mora",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@sergiogarciamor",
-    twitter_site = "@data4hr"
-  )
-```
 
 ---
 
@@ -737,12 +737,7 @@ background-color: #f2f5f7
 ]
 
 
----
-## El perfil de un Data Scientist
 
-.center[
-<img src="https://i.ytimg.com/vi/r2I3IDKwyMw/maxresdefault.jpg" width="80%"/>
-]
 
 ---
 ## Codear puede ser duro
@@ -801,30 +796,14 @@ En R podés:
 
 * Escribir libros `r emo::ji("book")`, crear blogs `r emo::ji("bubble")`... y mucho más
 
----
-## La ventaja de empezar de cero
 
-.pull-left[
-.right[
-<img src="https://m.media-amazon.com/images/I/41PZRSHF-NL.jpg" />
-]
-]
-
-
-.pull-right[
-Peter Thiel, con su analogía de ir *de cero a uno*, señala que cuando creas algo nuevo y disruptivo, que soluciona un problema que nadie antes había pensado, te estás moviendo de cero a uno.
-
-Si bien no vas a reinventar la rueda al usar R en tu organización, cuando crees tu primer análisis, tu primer informe, o una presentación sencilla usando R, **algo puede cambiar** en tu organización.
-
-La principal ventaja de empezar algo desde cero es que tenés mucho espacio para introducir mejoras, y cada pequeño cambio que lleves a cabo tendrá un gran impacto.
-]
 ---
 # 4 tips para aprender a codear
 
-No hay recetas mágicas para aprender a codear: vas a necesitar dedicar tiempo, y requiere mucha práctica, paciencia y persistencia. Sin embargo considero que estos consejos te pueden ser muy útiles:
+No hay recetas mágicas para aprender a codear: requiere tiempo, y mucha práctica, paciencia y persistencia. Sin embargo considero que estos consejos te pueden ser muy útiles:
 
 --
-* `r emo::ji("clown")` Haz proyectos divertidos.
+* `r emo::ji("clown")` Hacer proyectos divertidos.
 
 --
 * `r emo::ji("lifter")` Busca apoyo en las comunidades de R.
@@ -839,7 +818,7 @@ No hay recetas mágicas para aprender a codear: vas a necesitar dedicar tiempo, 
 
 .left-column[
 
-### **Haz proyectos divertidos**
+### **Hacer proyectos divertidos**
 
 ### Busca apoyo en las comunidades de R
 
@@ -983,7 +962,7 @@ ggplot(d1) +
 ---
 .left-column[
 
-### Haz proyectos divertidos
+### Hacer proyectos divertidos
 
 ### **Busca apoyo en las comunidades de R**
 
@@ -1171,7 +1150,7 @@ ggplot(training_analysis, aes(x = alignment,
 ---
 .left-column[
 
-### Haz proyectos divertidos
+### Hacer proyectos divertidos
 
 ### Busca apoyo en las comunidades de R
 
@@ -1239,6 +1218,7 @@ class: inverse middle center
 > *"Aprender es adquirir poder (y por eso da mucho trabajo), pero es un poder que no se gasta, y que una vez adquirido nadie puede quitármelo.*
 > *Porque así es el conocimiento: no se gasta con el uso y no es expropiable.*
 > *Lo que significa que cuando enseñamos, cuando compartimos nuestros conocimientos, cuando publicamos nuestros materiales de forma libre, reusable y en nuestro idioma, **estamos compartiendo poder**."*
+
 > [Yanina Bellini Saibene](https://twitter.com/yabellini). Researcher at INTA. Global Chair of LatinR_Conf.
 
 ]
@@ -1247,7 +1227,7 @@ class: inverse middle center
 # Let's connect!
 
 .pull-left[
-`r icons::fontawesome("link")` Presentación: [bit.ly/paw21-es-r4hr](http://bit.ly/paw21-es-r4hr)
+`r icons::fontawesome("link")` Presentación: [itba-atr.netlify.app](http://itba-atr.netlify.app)
 
 `r icons::fontawesome("linkedin")` [LinkedIn](https://www.linkedin.com/in/sergiogarciamora/?locale=en_US)
 
@@ -1256,6 +1236,9 @@ class: inverse middle center
 `r icons::fontawesome("paper-plane")` [Telegram](https://t.me/SergioGarciaMora)
 
 `r icons::fontawesome("envelope")` [sergio@d4r.com](mailto:sergio@d4hr.com)
+
+`r icons::fontawesome("discord")` [Discord](https://discord.gg/nstkwUaD)
+
 
 ]
 
