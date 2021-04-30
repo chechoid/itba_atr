@@ -1224,7 +1224,7 @@ class: inverse middle center
 ]
 
 ---
-# Let's connect!
+# Muchas gracias!
 
 .pull-left[
 `r icons::fontawesome("link")` Presentación: [dpa-atr.netlify.app](http://dpa-atr.netlify.app)
