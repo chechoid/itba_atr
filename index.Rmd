@@ -843,6 +843,8 @@ Además, hay mucho paquetes y fuentes de datos para jugar, que son entretenidos 
 ```{r sg1, fig.show='hide'}
 library(tidyverse)
 
+options(scipen=999) # Elimina notación científica ejes
+
 # Carga de datos
 rh <- read_delim("data/rh_ar.csv", delim = ";")
 
@@ -956,7 +958,8 @@ ggplot(d1) +
   geom_bernie(aes(x = puesto, y = sueldo_promedio), #<<
               bernie = "sitting") + #<<
   labs(title = "Presentando: ggbernie por R-CoderDotCom",
-       caption = "GitHub: https://github.com/R-CoderDotCom/ggbernie")
+       caption = "GitHub: https://github.com/R-CoderDotCom/ggbernie")+
+  scale_y_continuous(limits = c(0, 200000))
 ```
 
 ---
